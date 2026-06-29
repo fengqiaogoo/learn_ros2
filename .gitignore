@@ -1,0 +1,16 @@
+# Build artifacts
+build/
+log/
+install/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# IDE
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
