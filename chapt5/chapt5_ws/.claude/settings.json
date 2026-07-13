@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 -c \"import numpy; print\\(numpy.__version__\\)\")",
+      "Bash(sudo sed -i 's/np\\\\.float\\\\b/np.float64/g' /usr/lib/python3/dist-packages/transforms3d/quaternions.py)",
+      "Bash(python3 -c \"import sys; print\\('\\\\n'.join\\(sys.path\\)\\)\")",
+      "Bash(python3 -c \"import transforms3d; print\\(transforms3d.__file__\\)\")",
+      "Bash(xargs stat -c '%Y %n')"
+    ]
+  }
+}
